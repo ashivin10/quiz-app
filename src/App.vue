@@ -27,7 +27,7 @@ const startQuiz = async (topic)=>{
 
 status.value = 'loading';
 
-const genAI = new GoogleGenerativeAI("REPLACE YOUR API KEY");
+const genAI = new GoogleGenerativeAI("AIzaSyBpE6TivQjtgcJrIfdn0eTnfdyg6qfC-QM");
 
 const schema = {
   description: "List of quiz questions",
@@ -105,8 +105,8 @@ try {
   
   const result = await model.generateContent(
     `
-      Create 5 quiz questions about ${topic}
-      Difficulty: Easy
+      Create 5 quiz questions about operating system
+      Difficulty: Medium
       Type: Multiple Choice
     `,
   );
@@ -131,8 +131,8 @@ try {
 
     <header>
       <div class="container">
-        <img src="./assets/logo.png" alt="App Logo" class="logo">
-        <h1>Quiz Generator</h1>
+        <!-- <img src="./assets/logo.png" alt="App Logo" class="logo"> -->
+        <h1>E-Engage Quiz Assesment</h1>
       </div>
     </header>
 

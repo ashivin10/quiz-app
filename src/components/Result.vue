@@ -29,7 +29,7 @@ const correctAnswersCount = computed(() => {
             </li>
         </ul>
 
-        <button @click="emit('restart-quiz')" >Create a New Quiz</button>
+        <button @click="emit('restart-quiz')" >Try Again</button>
 
     </section>
 </template>

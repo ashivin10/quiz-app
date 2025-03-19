@@ -10,9 +10,9 @@ const topic = ref('');
 <template>
 
 <section class="start-screen container">
-    <h2>Choose a topic to start testing your knowledge</h2>
-    <input v-model="topic" type="text" placeholder="Enter your topic...">
-    <button @click="emit('start-quiz', topic)" :disabled="!topic" >Start Quiz</button>
+    <h2>Here are 5 Questions to test your knowledge on Todays topic</h2>
+    
+    <button @click="emit('start-quiz', topic)"  >Start Quiz</button>
     <small class="error" v-if="errorMessage">There was an error, please try again later.</small>
 </section>
 
