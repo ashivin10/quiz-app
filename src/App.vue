@@ -105,7 +105,7 @@ try {
   
   const result = await model.generateContent(
     `
-      Create 5 quiz questions about operating system
+      Create 5 quiz questions about Internet Security
       Difficulty: Medium
       Type: Multiple Choice
     `,
@@ -132,7 +132,7 @@ try {
     <header>
       <div class="container">
         <!-- <img src="./assets/logo.png" alt="App Logo" class="logo"> -->
-        <h1>E-Engage Quiz Assesment</h1>
+        <h1>E-Engage Quiz Assessment</h1>
       </div>
     </header>
 
