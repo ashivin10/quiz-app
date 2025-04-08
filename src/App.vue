@@ -131,7 +131,7 @@ try {
 
     <header>
       <div class="container">
-        <!-- <img src="./assets/logo.png" alt="App Logo" class="logo"> -->
+        <img src="./assets/e-engage.png" alt="App Logo" class="logo">
         <h1>E-Engage Quiz Assessment</h1>
       </div>
     </header>
